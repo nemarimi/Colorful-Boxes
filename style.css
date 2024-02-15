@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    border: 2px solid grey;
+    margin: 1rem;
+    text-align: center;
+    padding: 2rem 2.5rem;
+    border: none;
+    color: black;
+    font-size: 2rem;
+    float: left;
+}
+
+.box-container {
+    background-color: none;
+}
+
+.custom-btn {
+    background-color: palevioletred;
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    color: white;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    box-shadow: 5px 10px 18px rgba(216, 112, 147, 0.697);
+}
